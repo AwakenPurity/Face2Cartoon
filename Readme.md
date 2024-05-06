@@ -1,4 +1,6 @@
-# OpenVtuber-虚拟アイドル共享计划
+# Face2Cartoon Program
+
+- 借鉴 OpenVtuber 虚拟アイドル共享计划
 
 <p align="center"><img src="https://s3.ax1x.com/2020/12/12/rVO3FO.gif" /></p>
 <p align="center"><img src="https://s3.ax1x.com/2020/12/12/rZeXD0.gif" /></p>
@@ -32,6 +34,25 @@ OpenVtuber: An application of real-time face and gaze analyzation via deep nerua
 ### Python Client
 
 * `python3 vtuber_link_start.py <your-video-path>`
+
+### 部署细节 (Deploy Detail)
+
+安装 Nodejs, https://nodejs.org/en/download/
+
+该项目需要开启两个终端cmd:
+- 第一个终端cmd: 需要将文件路径切换到 NodeServer 路径下, 分别执行以下命令：
+  `npm config set registry https://registry.npmjs.org/`, `npm config set strict-ssl false`, `npm install socket.io`, `npm audit fix --force`.
+  再执行以下命令，开启 nodejs 服务:
+  `npm start`.
+  将会出现以下界面：
+  ![image](https://github.com/AwakenPurity/Face2Cartoon/assets/115935683/bcaba800-c221-4550-a85b-0647daeb78e8)
+
+- 第二个终端cmd: 在 vs code 中开启服务（项目环境安装 requirements.txt 中的说明安装即可）, 执行以下命令即可运行：
+  `python vtuber_link_start.py`.
+
+### 示例
+![image](https://github.com/AwakenPurity/Face2Cartoon/assets/115935683/7f3fffe3-d2b2-41d8-8f3c-a080922f973f)
+
 
 ## Face Detection
 
