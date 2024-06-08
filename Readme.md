@@ -51,7 +51,8 @@ OpenVtuber: An application of real-time face and gaze analyzation via deep nerua
   `python vtuber_link_start.py`.
 
 ### 示例
-![image](https://github.com/AwakenPurity/Face2Cartoon/assets/115935683/7f3fffe3-d2b2-41d8-8f3c-a080922f973f)
+![QQ截图20240608155231](https://github.com/AwakenPurity/Face2Cartoon/assets/115935683/e11b4745-1cb3-4a54-b362-af920fa2a59d)
+
 
 
 ## Face Detection
